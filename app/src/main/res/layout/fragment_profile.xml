@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/ghostWhite"
+    android:layout_height="match_parent"
+    tools:context=".View.userSetting.ProfileFragment">
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/tv_namepro_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:paddingStart="10dp"
+        android:textSize="18sp"
+        android:text="@string/tv_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_namepro_r"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:background="@color/white"
+        android:padding="5dp"
+        android:paddingEnd="10dp"
+        android:gravity="right"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_namepro_l"
+        app:layout_constraintTop_toTopOf="@+id/tv_namepro_l" />
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey81"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_namepro_l" />
+
+
+
+    <TextView
+        android:id="@+id/tv_genderpro_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_gender"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_namepro_l" />
+    <TextView
+        android:id="@+id/tv_genderpro_r"
+        android:layout_width="0dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="1dp"
+        android:padding="5dp"
+        android:paddingEnd="10dp"
+        android:gravity="right"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_genderpro_l"
+        app:layout_constraintTop_toBottomOf="@+id/tv_namepro_l" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey81"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_genderpro_l">
+    </View>
+
+
+
+    <TextView
+        android:id="@+id/tv_agepro_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:paddingStart="10dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:text="@string/tv_age"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_genderpro_l" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey81"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_agepro_l" />
+
+    <TextView
+        android:id="@+id/tv_agepro_r"
+        android:layout_width="0dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:padding="5dp"
+        android:paddingEnd="10dp"
+        android:gravity="right"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_agepro_l"
+        app:layout_constraintTop_toTopOf="@+id/tv_agepro_l" />
+
+    <TextView
+        android:id="@+id/tv_emailpro_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:paddingStart="10dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:text="@string/tv_emailaddress"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_agepro_l" />
+
+    <TextView
+        android:id="@+id/tv_emailpro_r"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="TextView"
+        android:padding="5dp"
+        android:paddingEnd="10dp"
+        android:gravity="right"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_emailpro_l"
+        app:layout_constraintTop_toTopOf="@+id/tv_emailpro_l" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey81"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_emailpro_l"></View>
+
+    <TextView
+        android:id="@+id/tv_idcardpro_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_identification"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_emailpro_l" />
+
+    <TextView
+        android:id="@+id/tv_idcardpro_r"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:paddingEnd="10dp"
+        android:gravity="right"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_idcardpro_l"
+        app:layout_constraintTop_toTopOf="@+id/tv_idcardpro_l" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey81"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_idcardpro_l"></View>
+
+    <TextView
+        android:id="@+id/tv_phonepro_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:paddingStart="10dp"
+        android:text="@string/tv_phone"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_idcardpro_l" />
+
+    <TextView
+        android:id="@+id/tv_phonepro_r"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:paddingEnd="10dp"
+        android:gravity="right"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_phonepro_l"
+        app:layout_constraintTop_toTopOf="@+id/tv_phonepro_l" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey81"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_phonepro_l"></View>
+
+    <TextView
+        android:id="@+id/tv_homepro_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:paddingStart="10dp"
+        android:text="@string/tv_homesite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_phonepro_l" />
+
+    <TextView
+        android:id="@+id/tv_homepro_r"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:padding="5dp"
+        android:paddingEnd="10dp"
+        android:background="@color/white"
+        android:gravity="right"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_homepro_l"
+        app:layout_constraintTop_toTopOf="@+id/tv_homepro_l" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey81"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_homepro_l" />
+
+    <TextView
+        android:id="@+id/tv_birthdaypro_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:paddingStart="10dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:text="@string/tv_birthday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_homepro_l" />
+
+    <TextView
+        android:id="@+id/tv_birthdaypro_r"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:paddingEnd="10dp"
+        android:gravity="right"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_birthdaypro_l"
+        app:layout_constraintTop_toTopOf="@+id/tv_birthdaypro_l" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey81"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_birthdaypro_l" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

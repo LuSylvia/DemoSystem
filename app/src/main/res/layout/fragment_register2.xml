@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.login.Register2Fragment">
+
+    <TextView
+        android:id="@+id/tv_birthday_rg"
+        android:layout_width="97dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="416dp"
+        android:gravity="center"
+        android:text="@string/tv_birthday"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_homesite_rg"
+        android:layout_width="97dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="344dp"
+        android:gravity="center"
+        android:text="@string/tv_homesite"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_identification_register"
+        android:layout_width="97dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="272dp"
+        android:gravity="center"
+        android:text="@string/tv_identification"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_age_register"
+        android:layout_width="97dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="204dp"
+        android:gravity="center"
+        android:text="@string/tv_age"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_username2"
+        android:layout_width="97dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="72dp"
+        android:gravity="center"
+        android:text="@string/tv_name"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_gender_regiser"
+        android:layout_width="97dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="136dp"
+        android:gravity="center"
+        android:text="@string/tv_gender"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ed_name_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入您的姓名"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toEndOf="@+id/tv_username2"
+        app:layout_constraintTop_toTopOf="@+id/tv_username2" />
+
+    <RadioGroup
+        android:id="@+id/rb_gender"
+        android:layout_width="123dp"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toEndOf="@+id/tv_gender_regiser"
+        app:layout_constraintTop_toTopOf="@+id/tv_gender_regiser">
+
+        <RadioButton
+            android:id="@+id/rb_male"
+            android:layout_width="wrap_content"
+
+            android:layout_height="match_parent"
+            android:text="男"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="女">
+
+
+        </RadioButton>
+
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/ed_age_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入您的年龄"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toEndOf="@+id/tv_age_register"
+        app:layout_constraintTop_toTopOf="@+id/tv_age_register" />
+
+    <EditText
+        android:id="@+id/ed_identification_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入您的身份证号码"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toEndOf="@+id/tv_identification_register"
+        app:layout_constraintTop_toTopOf="@+id/tv_identification_register" />
+
+    <EditText
+        android:id="@+id/ed_homesite_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入您的家庭住址"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toEndOf="@+id/tv_homesite_rg"
+        app:layout_constraintTop_toTopOf="@+id/tv_homesite_rg" />
+
+    <EditText
+        android:id="@+id/ed_birthday_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="格式为2021.5.6"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toEndOf="@+id/tv_birthday_rg"
+        app:layout_constraintTop_toTopOf="@+id/tv_birthday_rg" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="225dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="516dp"
+        android:backgroundTint="@color/LightSkyBlue"
+        android:text="@string/btn_register"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="171dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

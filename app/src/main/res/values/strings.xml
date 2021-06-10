@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">智慧医疗</string>
+    <string name="app_name2">欢迎使用儿童发育检测系统！</string>
+    <string name="app_loginUsername">智慧医疗用户名</string>
+    <string name="app_loginPwd">智慧医疗用户密码</string>
+
+    <string name="tv_username">用户名</string>
+    <string name="tv_pwd">密码</string>
+    <string name="ed_pwd">请输入您的密码</string>
+    <string name="ed_username">请输入您的用户名</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_register">注册</string>
+    <string name="title_home">主页</string>
+    <string name="title_dashboard">查找</string>
+    <string name="title_notifications">我的</string>
+    <string name="btn_changePwd">修改密码</string>
+    <string name="tv_oldPwd">旧密码</string>
+    <string name="ed_newPwd">请输入新密码</string>
+    <string name="ed_oldPwd">请输入旧密码</string>
+    <string name="tv_newPwd">新密码</string>
+    <string name="btn_quitLogin">退出登录</string>
+    <string name="ed_TID">请输入病历号</string>
+    <string name="btn_search">查找报表</string>
+    <string name="changeComments">修改评论</string>
+    <string name="addComments">增加评论</string>
+    <!-- 步态报表基础信息部分 -->
+    <string name="tv_report">步态分析报告</string>
+    <string name="tv_name">姓名</string>
+    <string name="tv_gender">性别</string>
+    <string name="tv_age">年龄</string>
+    <string name="tv_identification">身份证</string>
+    <string name="tv_birthday">出生日期</string>
+    <string name="tv_homesite">家庭住址</string>
+    <string name="tv_worknumber">工号</string>
+    <string name="tv_tel">座机</string>
+    <string name="tv_emailaddress">邮箱</string>
+    <string name="tv_phone">手机号</string>
+    <string name="tv_site">采集地点</string>
+    <!-- 步态报表参数部分    -->
+    <string name="tv_RID">报表编号</string>
+    <string name="Period">步态周期</string>
+    <string name="Stride">步幅</string>
+    <string name="Step_length">步长</string>
+    <string name="Step_width">步宽</string>
+    <string name="Stride_frequency">步频</string>
+    <string name="Pace">步速</string>
+    <string name="Barycenter_LR">质心左右移动范围</string>
+    <string name="Barycenter_UD">质心上下移动范围</string>
+    <string name="Hip_Angle">髋关节夹角</string>
+    <string name="Knee_Angle">膝关节角度</string>
+    <string name="tv_TID">病历号</string>
+    <string name="Create_time">测试日期</string>
+
+    <string name="testResult">1.测试结果</string>
+    <string name="testAngleImage">2.髋膝关节角度范围</string>
+    <string name="add">+</string>
+    <string name="inputComment">请在下方输入您的诊断意见：</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="comments1">诊断结果：</string>
+    <string name="cancelComment">取消评论</string>
+    <string name="title_activity_report_info">ReportInfoActivity</string>
+    <string name="tab_text_1">基本信息</string>
+    <string name="tab_text_2">步态参数</string>
+    <string name="tab_text_3">诊断结果</string>
+    <string name="resetPwd">重置密码</string>
+    <string name="tv_diagnosis_date">诊断日期</string>
+
+</resources>

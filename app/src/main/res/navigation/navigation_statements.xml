@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_statements"
+    app:startDestination="@id/statementListFragment">
+
+    <fragment
+        android:id="@+id/statementListFragment"
+        android:name="com.example.demosystem.View.detail.StatementListFragment"
+        android:label="StatementListFragment" >
+        <action
+            android:id="@+id/action_statementListFragment_to_detailStatementFragment2"
+            app:destination="@id/detailStatementFragment2"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_fade_exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailStatementFragment2"
+        android:name="com.example.demosystem.View.detail.DetailStatementFragment"
+        android:label="fragment_detail_statement"
+        tools:layout="@layout/fragment_detail_statement" >
+        <action
+            android:id="@+id/action_detailStatementFragment2_to_statementListFragment"
+            app:destination="@id/statementListFragment"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_fade_exit" />
+        <action
+            android:id="@+id/action_detailStatementFragment2_to_commentsFragment"
+            app:destination="@id/commentsFragment"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_fade_exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/commentsFragment"
+        android:name="com.example.demosystem.View.ui.reportinfo.comment.CommentsFragment"
+        android:label="fragment_comments"
+        tools:layout="@layout/fragment_comments" />
+</navigation>
